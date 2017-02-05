@@ -1,0 +1,28 @@
+{
+  "name": "postgres-to-mongo",
+  "version": "1.0.0",
+  "description": "move a postgres db to mongodb documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John2143658709/postgres-to-mongo.git"
+  },
+  "keywords": [
+    "postgresql",
+    "mongodb",
+    "postgres"
+  ],
+  "author": "John2143",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/John2143658709/postgres-to-mongo/issues"
+  },
+  "homepage": "https://github.com/John2143658709/postgres-to-mongo#readme",
+  "dependencies": {
+    "mongodb": "^2.2.22",
+    "pg": "^6.1.2"
+  }
+}
