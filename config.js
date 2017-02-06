@@ -14,6 +14,8 @@ const schema = exports.schema = {
         mimetype: string,
         keyid: number,
         lastdownload: date,
+        downloads: number,
+        modifiers: () => ({}),
     },
     keys: {
         id: number,
@@ -22,5 +24,7 @@ const schema = exports.schema = {
     },
 };
 
-exports.pg = "postgres://postgres:john@localhost:5432/juush";
-exports.mongo = "mongodb://127.0.0.1:9876/juush";
+//exports.update = true;
+
+exports.pg = "postgres://john2143com:a@localhost:5432/juush";
+exports.mongo = "mongodb://192.168.1.11:9876/juush";
